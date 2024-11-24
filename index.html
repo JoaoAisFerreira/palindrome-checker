@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Is this a palindrome?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="main-div">
+            <div id="site-title">
+                <h1>Palindrome Checker</h1>
+            </div>
+            <div class="description-row">
+                <div id="site-description">
+                    <h3>What is a palindrome?</h3>
+                    <p>
+                        A <span class="bold">palindrome</span> is a word, phrase, number, or sequence of 
+                        characters that reads the same forward and backward, 
+                        ignoring spaces, punctuation, and capitalization.
+                    </p>
+                    <p>
+                        <span class="bold">Palindromes</span> exhibit symmetry, making them an interesting 
+                        concept in language and mathematics.
+                    </p>
+                </div>
+                
+                <div id="examples">
+                    <h3>Examples of Palindromes</h3>
+                    <ul>
+                        <li class="bold list-title">Words</li>
+                            <ul>
+                                <li>madam</li>
+                                <li>radar</li>
+                                <li>rotor</li>
+                            </ul>
+                        
+                        <li class="bold list-title">Phrases</li>
+                            <ul>
+                                <li>A man, a plan, a canal, Panama! (Ignoring spaces, punctuation, and capitalization: "amanaplanacanalpanama")</li>
+                                <li>Was it a car or a cat I saw? (When simplified: "wasitacaroracatisaw")</li>
+                            </ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="input-box">
+                <input type="text" id="text-input">
+                <button id="check-btn">Is this a Palindrome?</button>
+            </div>         
+            
+            <div id="result"></div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

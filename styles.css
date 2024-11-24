@@ -1,0 +1,166 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px;
+
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-div {
+    max-width: 1000px;
+    text-align: center;
+    margin: 100px;
+
+}
+
+h1 {
+    padding-bottom: 10%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3  {
+    padding-bottom: 10%;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+.list-title {
+    list-style: none;
+}
+
+.description-row {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6rem;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+#site-description {
+    max-width: 20rem;
+    width: 40%;
+}
+
+#site-description p {
+    padding-bottom: 20px;
+}
+
+#examples {
+    max-width: 20rem;
+    width: 40%;
+    text-align: left;
+}
+
+.input-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-input {
+    padding: 14px;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#check-btn {
+    font-size: 1.1rem;
+    height: 50px;
+    width: 140px;
+    margin-left: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#isPal {
+    color: green;
+}
+
+#notPal {
+    color: red;
+}
+
+
+@media (max-width: 520px) {
+    #examples {
+        display: none;
+    }
+
+    body {
+        display: block;
+    }
+
+    .description-row {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #site-description {
+        width: 100%;
+    }
+
+    .input-box {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-bottom: 100px;
+    }
+
+
+    #text-input {
+        width: 200px;
+        padding: 10px;
+        font-size: 1rem;
+        text-align: center;
+        margin-right: 0px;
+    }
+    
+    #check-btn {
+        font-size: 1rem;
+        height: 50px;
+        width: 150px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #result {
+        margin-top: -80px;
+    }
+}
